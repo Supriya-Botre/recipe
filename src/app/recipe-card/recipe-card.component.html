@@ -1,0 +1,12 @@
+<div class="recipe-card">
+    <div class="recipe-card-header">
+       <img src="../../assets/first_image.jpg" alt="food" *ngIf="index%2==0">
+       <img src="../../assets/second_image.jpg" alt="food" *ngIf="index%2!=0">
+    </div>
+    <div class="recipe-card-body">
+       <p>{{ recipe.name }}</p>
+    </div>
+    <div class="recipe-card-footer">
+         <button class="btn-view">Read More</button>
+    </div> 
+</div>

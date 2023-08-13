@@ -1,0 +1,12 @@
+<div class="header-text">
+   <p>Find your recipe from the Bug Array Coding Kithen</p>
+</div>
+<div class="search-display">
+  <app-search-bar></app-search-bar>
+
+</div>
+<div class="recipes-display">
+   <app-recipe-card class="recipe" *ngFor="let recipe of recipesData; let i = index"
+   [index] = i [recipe]="recipe"></app-recipe-card>
+ 
+</div>

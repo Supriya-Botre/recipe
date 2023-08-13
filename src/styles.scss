@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../src/themes/themes.scss';
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn-view{
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary-color;
+    padding: $main-spacing;
+    cursor: pointer;
+    &:hover{
+        background: rgba($primary-color,0.5);
+    } 
+}
